@@ -20,14 +20,11 @@ a {
 
 .wrap {
   max-width: 700px;
-  margin: 40px auto;
+  margin: 10px auto 60px;
   padding: 0 10%;
-  position: fixed;
-  left: 0;
-  right: 0;
 }
 
-.message {
+.center {
   text-align: center;
 }
 
@@ -48,12 +45,14 @@ a {
   text-decoration: none;
 }
 
+.btn:hover {
+  background-color: #BE5A10;
+}
+
 .footer {
   position: fixed;
   left: 0px;
   bottom: 0px;
-  height: 30px;
   width: 100%;
   background: #271d1c;
-  padding: 20px;
 }
